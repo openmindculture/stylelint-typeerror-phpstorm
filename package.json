@@ -4,10 +4,26 @@
     "description": "minimal reproducible example for IDE error Stylelint: typeError: [configExtends].flat is not a function",
     "main": "src/index.html",
     "scripts": {
+        "eslint": "eslint src",
         "stylelint": "stylelint src/*.css src/_includes/*.css"
     },
     "author": "Ingo Steinke",
     "devDependencies": {
+        "@babel/cli": "^7.18.10",
+        "@babel/core": "^7.18.10",
+        "@babel/preset-env": "^7.18.10",
+        "autoprefixer": "^10.2.5",
+        "babel-preset-minify": "^0.5.2",
+        "clean-css": "^5.3.1",
+        "cssnano": "^5.1.13",
+        "eslint": "^8.6.0",
+        "html-minifier": "^4.0.0",
+        "postcss": "^8.3.0",
+        "postcss-cli": "^8.3.1",
+        "postcss-custom-properties": "^11.0.0",
+        "postcss-custom-selectors": "^6.0.0",
+        "postcss-import": "^14.0.2",
+        "precss": "^4.0.0",
         "stylelint": "^14.10.0",
         "stylelint-config-html": "^1.1.0",
         "stylelint-config-standard": "^27.0.0"
