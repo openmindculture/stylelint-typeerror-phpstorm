@@ -2,7 +2,7 @@
     "name": "stylelint-typeerror-phpstorm",
     "version": "1.0.0",
     "description": "minimal reproducible example for IDE error Stylelint: typeError: [configExtends].flat is not a function",
-    "main": "index.html",
+    "main": "src/index.html",
     "scripts": {
         "stylelint": "stylelint src/*.css src/_includes/*.css"
     },

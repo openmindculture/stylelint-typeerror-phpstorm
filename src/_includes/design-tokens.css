@@ -1,0 +1,97 @@
+:root {
+  /* define possible colors,
+   * postcss-custom-properties : preserve: false
+   * => only export properties that are actually used
+   */
+
+  --deep-green: #017d63;
+  --spermidine-green: #1d4950;
+  --fresh-blue: #6440fa;
+  --surftheweb-pantone: #203c7f;
+  --greenish-blue: #053245;
+  --orange-tagdrippalette-yellow: #f8bc24;
+  --rippedpalette-yellow: #f4d83d;
+  --pantone-illuminating: #f5df4d; /* spring summer 2021 */
+  --light-yellowish: #fffcf0;
+  --monolith-yellow: #fddc03;
+  --trendy-beige: #f3db6d;
+  --nougat-beige: #c97d43;
+  --orange-tag: #df814b;
+  --dirty-orange: #cf7626;
+  --interior-rose: #f6b692;
+  --omega-purple: #623144;
+  --palo-rose: #fedbbd;
+  --merino-lighter: #ebeff2;
+  --merino-light: #bbbfc2;
+  --merino-dark: #83878a;
+  --pantone-stormy-weather: #58646d;
+  --pantone-inkwell: #363945; /* spring summer 2021 */
+
+  /* export theme colors */
+  --primary-foreground: var(--merino-lighter);
+  --secondary-foreground: #000;
+  --primary-heading: var(--merino-lighter);
+  --gradient-heading-bright-side: var(--light-yellowish);
+  --gradient-heading: var(--merino-light);
+  --gradient-heading-dark-side: var(--merino-dark);
+  --secondary-heading: var(--greenish-blue);
+  --link-hover-background: var(--pantone-illuminating);
+  --primary-background: var(--spermidine-green);
+  --secondary-background: var(--merino-light);
+  --nav-menu-background: var(--greenish-blue);
+  --peel-gradient: var(--greenish-blue);
+  --peel-gradient-semitrans: rgba(5, 50, 69, 0.5);
+  --hashtag-default: var(--surftheweb-pantone);
+  --hashtag-green: var(--spermidine-green);
+  --hashtag-blue: var(--fresh-blue);
+
+  /* colors to alternate by position */
+  --hashtag-bg-autumn-1: var(--deep-green);
+  --hashtag-bg-autumn-2: var(--pantone-stormy-weather);
+  --hashtag-bg-autumn-3: var(--pantone-inkwell);
+  --hashtag-bg-autumn-4: var(--spermidine-green);
+  --hashtag-bg-autumn-5: var(--surftheweb-pantone);
+  --hashtag-bg-spring-1: var(--pantone-illuminating);
+  --hashtag-bg-spring-2: var(--trendy-beige);
+  --hashtag-bg-spring-3: var(--interior-rose);
+  --hashtag-bg-spring-4: var(--palo-rose);
+  --hashtag-bg-spring-5: var(--orange-tag);
+
+  /* colors inspired by external brands */
+  --brand-yellow-js: #f5df4d;
+  --brand-yellow-miro: #f0c140; /* and smarty */
+  --brand-orange-html: #f26600;
+  --brand-orange-mysql: #f0931a;
+  --brand-brown-composer: #8a5428;
+  --brand-red-express-post-apache: #dd3808;
+  --brand-red-oracle-soap-npm: #cb3837;
+  --brand-purple-scss: #bf4080; /* and krita */
+  --brand-purple-dark-preact: #673ab8;
+  --brand-blue-tailwind-react: #55d0f4;
+  --brand-blue-shopware6: #5c60e1;
+  --brand-blue-shopware5: #3a9bf8;
+  --brand-blue-liquid: #3a9bcd;
+  --brand-blue-typescript: #3178c6;
+  --brand-blue-php7: #6482bc;
+  --brand-blue-php8: #4f5b93; /* and snowpack */
+  --brand-blue-less: #0769ad; /* and XML */
+  --brand-green-twig-bg: #e0e9a1;
+  --brand-green-twig-fg: #006f9f;
+  --brand-green-css-mongo: #017d63;
+  --brand-gray-mongoose: #58646d;
+  --brand-gray-eleventy: #1d4950;
+  --brand-gray-gimp: #514b3a;
+  --brand-black-inkscape: #24273c;
+
+  /* animation */
+  --radius: 100%;
+  --primary-animation-color: var(--deep-green);
+  --secondary-animation-color: var(--omega-purple);
+
+  /* export typography */
+  --body-font-family: 'Montserrat', 'Helvetica', sans-serif;
+  --body-font-weight: 400;
+  --body-line-height: 1.75;
+  --heading-font-family: 'Bitter', serif;
+  --heading-font-weight: 700;
+}

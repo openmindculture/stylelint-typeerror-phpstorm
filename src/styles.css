@@ -1,4 +1,4 @@
-/* does NOT occur in this minimal version so far yet - why? */
+@import '_includes/design-tokens.css';
 
 img {
   border: none;
